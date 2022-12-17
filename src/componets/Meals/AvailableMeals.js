@@ -36,7 +36,7 @@ export default function AvailableMeals() {
       isloading(false);
       setHttpError(err.message);
     });
-  }, []);
+  });
 
   if (isloading) {
     return (
